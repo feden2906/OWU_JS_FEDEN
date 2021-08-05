@@ -1,0 +1,35 @@
+@media screen and (max-width: 574px){
+
+    body{
+        background-color: rgba(120, 36, 76, 0.34);
+    }
+
+    #person-div {
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    #btn-posts {
+        font-size: 10px;
+        height: 20px;
+        padding: 3px;
+        border-radius: 5px;
+    }
+
+    .post-box {
+        width: 80px;
+        height: 90px;
+        font-size: 7px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .post-title {
+        height: 50px;
+    }
+
+    .btn-post{
+        height: 15px;
+        font-size: 7px;
+    }
+}

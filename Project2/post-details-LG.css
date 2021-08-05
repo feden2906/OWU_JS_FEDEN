@@ -1,0 +1,18 @@
+@media screen and (max-width: 1199px){
+
+    body{
+        background-color: #ff5050;
+    }
+
+    #post-div{
+        font-size: 20px;
+        padding: 35px;
+    }
+
+    .comment-div{
+        width: 215px;
+        height: 260px;
+        font-size: 14px;
+        padding: 10px;
+    }
+}

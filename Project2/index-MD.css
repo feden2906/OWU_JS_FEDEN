@@ -1,0 +1,15 @@
+@media screen and (max-width: 991px){
+
+    #main-div{
+        background-color: #0677A1;
+    }
+
+    .user-details{
+        margin-top: 45px;
+    }
+
+    .user-div{
+        width: 300px;
+        font-size: 25px;
+    }
+}

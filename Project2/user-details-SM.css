@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+
+    body {
+        background-color: teal;
+    }
+
+    #person-div {
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    #btn-posts {
+        font-size: 15px;
+    }
+
+    .post-box {
+        width: 100px;
+        height: 150px;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .post-title {
+        height: 95px;
+    }
+
+    .btn-post{
+        height: 20px;
+        font-size: 10px;
+    }
+}

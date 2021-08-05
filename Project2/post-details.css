@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red{
+    color: #895061;
+}
+.blue{
+    color: #0677A1;
+}
+
+#post-div{
+    margin: 50px;
+    padding: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: #59253A;
+}
+
+#comments-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.comment-div{
+    width: 330px;
+    height: 350px;
+    color: white;
+    background-color: #2D4159;
+    padding: 20px;
+    margin-bottom: 33px;
+    font-size: 20px;
+}
+
+.row-div{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px){
+
+    #main-div{
+        background-color: teal;
+    }
+    .user-details{
+        height: 30px;
+        margin-top: 35px;
+        font-size: 16px;
+    }
+
+    .user-div{
+        width: 230px;
+        height: 130px;
+        font-size: 16px;
+    }
+}

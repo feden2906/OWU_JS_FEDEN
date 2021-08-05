@@ -1,0 +1,31 @@
+@media screen and (max-width: 1399px){
+
+    body{
+        background-color: #ffe600;
+    }
+
+    #person-div{
+        font-size: 25px;
+    }
+
+    #btn-posts{
+        height: 80px;
+        font-size: 35px;
+        padding: 20px;
+    }
+
+    .post-box{
+        width: 190px;
+        height: 150px;
+        font-size: 16px;
+    }
+
+    .post-title{
+        height: 85px;
+    }
+
+    .btn-post{
+        height: 26px;
+        font-size: 16px;
+    }
+}

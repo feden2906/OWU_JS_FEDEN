@@ -1,0 +1,27 @@
+@media screen and (max-width: 767px){
+
+    body{
+        background-color: teal;
+    }
+
+    #post-div{
+        font-size: 10px;
+        padding: 20px;
+        margin: 40px;
+        margin-bottom: 15px;
+    }
+
+    #comments-div{
+        margin: 40px;
+        margin-top: 0;
+    }
+
+    .comment-div{
+        width: 120px;
+        height: 140px;
+        font-size: 7px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+}
