@@ -18,15 +18,22 @@
 //         '***********'
 //     ]
 
-const builder = (count) => {
-  const array = [];
-  recursive(count, array);
-  return array;
-};
+// variant 1
+// const builder = (count) => {
+//   const array = [];
+//   recursive(count, array);
+//   return array;
+// };
+//
+// const recursive = (count, array) => {
+//   array.unshift(' '.repeat(array.length) + '*'.repeat(count * 2 - 1) + ' '.repeat(array.length));
+//   if (--count) recursive(count, array);
+// }
+//
+// console.log(builder(7));
 
-const recursive = (count, array) => {
-  array.unshift(' '.repeat(array.length) + '*'.repeat(count * 2 - 1) + ' '.repeat(array.length));
-  if (--count) recursive(count, array);
-}
+
+// variant 2
+const builder = (x) => [...Array(x)].map((_, i) => ' '.repeat(x - i - 1) + '*'.repeat(i * 2 + 1) + ' '.repeat(x - i - 1));
 
 console.log(builder(7));
