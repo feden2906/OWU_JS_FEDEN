@@ -17,3 +17,16 @@
 //         ' ********* ',
 //         '***********'
 //     ]
+
+const builder = (count) => {
+  const array = [];
+  recursive(count, array);
+  return array;
+};
+
+const recursive = (count, array) => {
+  array.unshift(' '.repeat(array.length) + '*'.repeat(count * 2 - 1) + ' '.repeat(array.length));
+  if (--count) recursive(count, array);
+}
+
+console.log(builder(7));
