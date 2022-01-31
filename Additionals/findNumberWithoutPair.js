@@ -7,5 +7,6 @@
 
 const finder = (x) => x.reduce((a, b) => a ^ b);
 
+// OR
 
 const finder = (arr) => arr.find(item => arr.filter(value => value === item).length % 2);
