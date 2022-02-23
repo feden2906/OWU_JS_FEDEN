@@ -4,3 +4,9 @@
 //     [17]                              --> 17
 //     [1,2,1,2,10]                      --> 10
 //     [1,2,1,2,1,3,3]                   --> 1
+
+const finder = (x) => x.reduce((a, b) => a ^ b);
+
+// OR
+
+const finder = (arr) => arr.find(item => arr.filter(value => value === item).length % 2);
