@@ -30,3 +30,25 @@
 //   ]
 // }
 
+const list = [
+  { name: 'Vika', course: 'REACT' },
+  { name: 'Viktoria', course: 'JS' },
+  { name: 'Maks', course: 'REACT' },
+  { name: 'Tamara', course: 'JAVA' },
+  { name: 'Volodymyr', course: 'JS' },
+  { name: 'Maks', course: 'JS' },
+  { name: 'Alina', course: 'REACT' },
+  { name: 'Olena', course: 'JS' },
+  { name: 'Dima', course: 'JAVA' }
+];
+
+const newList = list.reduce((acc, user) => {
+  if (!acc[user.course]) {
+    acc[user.course] = [];
+  }
+  acc[user.course].push(user);
+
+  return acc;
+}, {});
+
+console.log(newList);
